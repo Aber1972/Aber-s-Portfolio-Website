@@ -688,85 +688,60 @@ body {
   color: white;
 }
 @media screen and (max-width: 768px) {
-  html,
-  body {
-    width: 100%;
-    height: auto;
-    overflow: auto;
-    position: static;
-    left: 0;
-    background-position: center;
-    background-size: cover;
-    padding: 0;
-    margin: 0;
-  }
-
-  .navbar ul {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 0;
-    margin: 0 auto;
-    list-style: none;
-  }
-
-  .navbar li {
+  .hero-name {
+    font-size: 2.5rem;
     text-align: center;
   }
 
-  .navbar a {
-    font-size: 1rem;
-    padding: 8px 0;
+  .hero-sub {
+    font-size: 1.2rem;
+    text-align: center;
   }
 
-  .bottom-box {
-    width: 95%;
-    padding: 30px 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    border-radius: 20px;
-  }
-
-  .title {
-    font-size: 2.2rem;
-    top: 30px;
-    left: 20px;
-    right: auto;
-  }
-
-  .experience-list,
-  .education-list,
-  .contact-form {
-    width: 90%;
-    margin: 30px auto;
-  }
-
-  .exp-box {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    font-size: 0.95rem;
-    padding: 15px;
-  }
-
-  .contact-icons {
-    display: flex;
-    flex-direction: column;
+  .hero-content {
     align-items: center;
-    gap: 15px;
-    margin-top: 20px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
   }
 
-  .contact-icons a {
-    font-size: 1.5rem;
+  .intro {
+    padding: 3rem 1.5rem;
   }
 
-  input,
-  textarea,
-  button {
-    width: 100%;
+  .intro-container p {
     font-size: 1rem;
-    padding: 10px;
-    margin-top: 10px;
+    line-height: 1.7;
+  }
+
+  .explore-paragraph {
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+
+  .explore-button {
+    font-size: 1.5rem;
+    padding: 0.8rem 1.5rem;
+  }
+
+  .navbar ul li {
+    display: block;
+    margin: 1rem 0;
+  }
+
+  .about-hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .profile-pic img {
+    max-width: 180px;
+    margin-top: 1rem;
+  }
+
+  .intro-text {
+    max-width: 100%;
+    padding: 0 1rem;
   }
 }
