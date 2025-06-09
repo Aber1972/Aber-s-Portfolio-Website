@@ -796,3 +796,24 @@ body {
     margin: 10px 0;
   }
 }
+@media (max-width: 480px) {
+  .exp-box {
+    background-color: #b6b90831; /* یا هر رنگی که برای دسکتاپ داشتی */
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+
+  .experience-list {
+    padding: 10px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  .experience-page {
+    background-color: #38460511; /* رنگ کلی پس‌زمینه */
+  }
+}
