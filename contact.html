@@ -9,8 +9,29 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
+    <style>
+      @media (max-width: 768px) {
+        .contact-container {
+          padding: 1rem;
+        }
+
+        .contact-form input,
+        .contact-form textarea,
+        .contact-form button {
+          width: 100%;
+          margin-bottom: 1rem;
+        }
+
+        .social-links {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          gap: 1rem;
+        }
+      }
+    </style>
   </head>
-  
+
   <body class="contact-page">
     <div class="contact-container">
       <h1 class="contact-title">Contact Me</h1>
@@ -32,10 +53,12 @@
         <a href="https://instagram.com/ms.aber_" target="_blank"
           ><i class="fab fa-instagram"></i
         ></a>
-        <a href="https://mail.google.com/mail/?view=cm&to=farooqaber1@gmail.com" target="_blank">
-            <i class="fas fa-envelope"></i> 
-          </a>
-        ></a>
+        <a
+          href="https://mail.google.com/mail/?view=cm&to=farooqaber1@gmail.com"
+          target="_blank"
+        >
+          <i class="fas fa-envelope"></i>
+        </a>
       </div>
     </div>
   </body>

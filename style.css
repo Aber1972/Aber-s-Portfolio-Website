@@ -817,3 +817,5 @@ body {
     background-color: #38460511; /* رنگ کلی پس‌زمینه */
   }
 }
+@media (max-width: 768) {
+}
